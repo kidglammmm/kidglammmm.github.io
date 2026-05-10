@@ -3,38 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Page</title>
+    <title>Kid GLAMMMM - Rock & Roll</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
+            background: white;
+            color: #333;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1db954 0%, #1aa34a 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            min-height: 60vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
         }
-        .container {
-            text-align: center;
+        
+        header h1 {
+            font-size: 4em;
+            font-weight: bold;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+            animation: slideDown 0.8s ease-out;
+        }
+        
+        header p {
+            font-size: 1.3em;
+            color: #e8f5e9;
+            font-style: italic;
+            margin-bottom: 40px;
+            letter-spacing: 2px;
+        }
+        
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .merch-button {
+            display: inline-block;
             background: white;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            color: #1db954;
+            padding: 20px 60px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.4em;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            border: none;
+            font-family: Arial, sans-serif;
         }
-        h1 {
-            color: #333;
-            margin: 0;
+        
+        .merch-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            background: #f0f0f0;
         }
-        p {
+        
+        .merch-button:active {
+            transform: translateY(-2px);
+        }
+        
+        .content {
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        
+        .content h2 {
+            color: #1db954;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+        
+        .content p {
+            font-size: 1.1em;
             color: #666;
-            margin-top: 10px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+        
+        footer {
+            background: #2a2a2a;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 80px;
+            font-size: 0.95em;
+        }
+        
+        footer p {
+            margin: 5px 0;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+            
+            header p {
+                font-size: 1.1em;
+            }
+            
+            .merch-button {
+                padding: 15px 40px;
+                font-size: 1.1em;
+            }
+            
+            .content h2 {
+                font-size: 1.8em;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>✅ Website is Loading!</h1>
-        <p>Your site is live and working.</p>
+    <header>
+        <h1>KID GLAMMMM</h1>
+        <p>Rock & Roll Energy</p>
+        <a href="tshirts.html" class="merch-button">🛍️ Shop Merch</a>
+    </header>
+    
+    <div class="content">
+        <h2>Welcome</h2>
+        <p>Authentic rock and roll for the true fans. Kid GLAMMMM is bringing the energy, the attitude, and the sound.</p>
+        <p>Check out our exclusive merch collection and support the band.</p>
     </div>
+    
+    <footer>
+        <p>&copy; 2026 Kid GLAMMMM. All rights reserved.</p>
+        <p>Rock & Roll Never Dies</p>
+    </footer>
 </body>
 </html>
