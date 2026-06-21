@@ -1,0 +1,42 @@
+[
+  {
+    "title": "OFFICIAL T-SHIRTS",
+    "description": "Browse our catalog of custom-designed, premium white cotton ladies t-shirts. Configure your sizes, set up your cart, and export your order details instantly",
+    "linkText": "Browse Apparel",
+    "url": "tshirts.html",
+    "backgroundColor": "#ffff80",
+    "foregroundColor": "#000000"
+  },
+  {
+    "title": "Fan Club",
+    "description": "Ready to take your relationship with Kid GLAMMMM to a new level? That's what the fan club is for! Space is strictly limited to an exclusive inner circle. Secure your spot for elite VIP perks, rare media access, and priority status.",
+    "linkText": "Claim Your Pass",
+    "url": "fanclub.html",
+    "backgroundColor": "#ff007f",
+    "foregroundColor": "#ffffff"
+  },
+  {
+    "title": "GET IN TOUCH",
+    "description": "Have questions about your order, or just want to introduce yourself? Kid GLAMMMM wants to hear from you. Whether you're tracking a package or just reaching out to connect, drop a line directly to the inner circle.",
+    "linkText": "Send Email",
+    "url": "contact.html",
+    "backgroundColor": "#4bc269",
+    "foregroundColor": "#ffffff"
+  },
+  {
+    "title": "Kid GLAMMMM's Blog",
+    "description": "Free handwritten letters for you to read anytime. Take a look inside to get to know me a little better, find a comfortable space, and hang out before you even say hello.",
+    "linkText": "Open the Letters",
+    "url": "blog.html",
+    "backgroundColor": "#4664f0",
+    "foregroundColor": "#ffffff"
+  },
+  {
+    "title": "PAYMENT INSTRUCTIONS",
+    "description": "Kid GLAMMMM really appreciates your support. This is where you can find out all the details about how to pay for something.",
+    "linkText": "Click for Payment Info",
+    "url": "payments.html",
+    "backgroundColor": "#cb1ce3",
+    "foregroundColor": "#ffffff"
+  }
+]

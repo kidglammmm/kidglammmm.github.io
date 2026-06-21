@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Header Styles */
+.site-header {
+  background: #222;
+  color: #fff;
+  padding: 15px 20px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+/* Footer Styles */
+.site-footer {
+  background: #111;
+  color: #ccc;
+  padding: 30px 20px 15px 20px;
+  margin-top: auto;
+}
+.footer-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.footer-item {
+  flex: 1;
+  min-width: 200px;
+  background: #222;
+  padding: 15px;
+  border-radius: 4px;
+}
+.footer-item h4 {
+  margin-top: 0;
+  color: #fff;
+}
+.footer-btn {
+  display: inline-block;
+  background: #007acc;
+  color: #fff;
+  padding: 6px 12px;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+  font-size: 0.85em;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+	
+}
+
+.video-container iframe {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+	
+}
