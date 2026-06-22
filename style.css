@@ -1,31 +1,15 @@
 body {
-    overflow-x: hidden; 
-}
-
-/* 2. Hide the scrollbar but keep the content width */
-.canvas-wrapper {
-    width: 100%;
-    overflow: hidden; /* This removes the scrollbar */
-    position: relative;
-}
-
-/* 3. Center the large image so the 'main' part of it is visible */
-.letter-image {
-    max-width: none; 
-    margin-left: 50%;
-    transform: translateX(-50%); /* This keeps the center of your 1380px image in view */
-    display: block;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 main {
   flex: 1;
   padding: 20px;
-  /* This forces the main content to stay within the screen bounds */
-  max-width: 100%;
-  box-sizing: border-box;
 }
-
-
 
 /* Header Styles */
 .site-header {
