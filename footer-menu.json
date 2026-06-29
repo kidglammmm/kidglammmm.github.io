@@ -38,5 +38,13 @@
     "url": "payments.html",
     "backgroundColor": "#cb1ce3",
     "foregroundColor": "#ffffff"
+  },
+  {
+    "title": "UNOFFICIAL OFFERINGS",
+    "description": "This is just a place where Kid GLAMMMM puts the band's \"unofficial\" offers but he's really serious. ",
+    "linkText": "Take a Quick Peek",
+    "url": "unofficial-offers.html",
+    "backgroundColor": "#fdbe4a",
+    "foregroundColor": "#000000"
   }
 ]
